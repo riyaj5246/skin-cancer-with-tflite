@@ -52,9 +52,9 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    guard modelDataHandler != nil else {
-      fatalError("Model set up failed")
-    }
+//    guard modelDataHandler != nil else {
+//      fatalError("Model set up failed")
+//    }
 
 #if targetEnvironment(simulator)
     previewView.shouldUseClipboardImage = true

@@ -14,7 +14,7 @@
 
 import CoreImage
 import TensorFlowLite
-import UIKit
+//import UIKit
 import Accelerate
 
 /// A result from invoking the `Interpreter`.
